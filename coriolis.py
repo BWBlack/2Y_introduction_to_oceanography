@@ -1,5 +1,5 @@
 import numpy as np
-import sys
+import os
 import matplotlib.pyplot as plt
 from plotting import multiline
 
@@ -12,7 +12,7 @@ def omegas(rotation_period):
 def f_val(omega):
     return 2 * omega * np.sin(np.deg2rad(latitude))                     #
 
-def f_plot(latitude=latitude, other_values=False):
+def f_plot(latitude=latitude, other_values=False, save=False):
 
     fig, ax = plt.subplots(figsize=(15,15))
 
@@ -28,9 +28,7 @@ def f_plot(latitude=latitude, other_values=False):
         lats = np.repeat(latitude[np.newaxis,:], len(rr_rng_), axis=0)
         fs =   f_val(np.repeat(omegas(rr_rng_)[:,np.newaxis], len(latitude), axis=1))
 
-        print(np.shape(fs))
-
-        plot = multiline(fs, lats, rr_rng_, cmap='magma', lw=2)
+        plot = multiline(fs, lats, rr_rng_, cmap='magma', lw=2, alpha=0.1)
 
         cb = fig.colorbar(plot)
         cb.set_label('Rotation period (hours)')
@@ -50,3 +48,8 @@ def f_plot(latitude=latitude, other_values=False):
     ax.legend()
 
     plt.show()
+
+    if save:
+        id=np.random.rand().__round__(5)
+        path=os.getcwd().replace('\\','/')
+        fig.savefig(f'{path}/figures/coriolis_f_value_id{id}.png')
