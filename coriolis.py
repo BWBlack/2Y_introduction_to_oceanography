@@ -28,7 +28,7 @@ def f_plot(latitude=latitude, other_values=False, save=False):
         lats = np.repeat(latitude[np.newaxis,:], len(rr_rng_), axis=0)
         fs =   f_val(np.repeat(omegas(rr_rng_)[:,np.newaxis], len(latitude), axis=1))
 
-        plot = multiline(fs, lats, rr_rng_, cmap='magma', lw=2, alpha=0.1)
+        plot = multiline(fs, lats, rr_rng_, cmap='magma', lw=2, alpha=0.7)
 
         cb = fig.colorbar(plot)
         cb.set_label('Rotation period (hours)')
