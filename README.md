@@ -2,7 +2,7 @@
 
 This repo will have any code for recreating figures that appear in the lectures and practical sessions. 
 
-If you do want to look at any of these, you will need to download Anaconda
+If you do want to look at any of these, you will need to download Anaconda: https://www.anaconda.com/products/distribution
 
 ### Rotation and coriolis figure
 
