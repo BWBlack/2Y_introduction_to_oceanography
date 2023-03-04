@@ -1,4 +1,4 @@
-## 🌊 🌊 🌊 PRACTICAL INSTRUCTIONS 🌊 🌊 🌊
+# 🌊 🌊 🌊 PRACTICAL INSTRUCTIONS 🌊 🌊 🌊
 
 #### Step 1 - setup the Python environment we need
 
