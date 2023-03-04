@@ -12,7 +12,7 @@ be required to do too much code editing - I would prefer that you focus on the s
 - Once you have done this, open an anaconda terminal and type this:
 
 ```
-conda env create -f puppies.yml
+conda env create -f heat_transport_prac_env.yml
 ```
 
 #### Step 2 - Download the practical data in to the right directory
