@@ -7,7 +7,11 @@ be required to do too much code editing - I would prefer that you focus on the s
 
 - First, the computational environment we're using, miniconda, needs setting up. 
 
-- Once you have done this, open an anaconda terminal
+- Once you have done this, open an anaconda terminal and type this,
+
+```
+conda env create -f puppies.yml
+```
 
 #### Step 2 - Download the practical data in to the right folder
 
