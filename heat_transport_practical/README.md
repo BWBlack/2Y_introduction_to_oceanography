@@ -13,7 +13,7 @@ be required to do too much code editing - I would prefer that you focus on the s
 conda env create -f puppies.yml
 ```
 
-#### Step 2 - Download the practical data in to the right folder
+#### Step 2 - Download the practical data in to the right directory
 
 - The data is in this dropbox:[link going somewhere]. Its quite a large file...
 - Download this file as you normally would, and put it in the directory (folder) named
