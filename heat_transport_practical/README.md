@@ -2,6 +2,13 @@
 
 #### Step 1 - setup the Python environment we need
 
+- So today we will be using Python, which is just a programming language. However, you won't 
+be required to do too much code editing - I would prefer that you focus on the science.
+
+- First, the computational environment we're using, miniconda, needs setting up. 
+
+- Once you have done this, open an anaconda terminal
+
 #### Step 2 - Download the practical data in to the right folder
 
 - The data is in this dropbox:[link going somewhere]. Its quite a large file...
