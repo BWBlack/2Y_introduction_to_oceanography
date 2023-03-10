@@ -28,15 +28,15 @@ conda activate heat_transport_prac_env
 - Followed by this command, to open a Jupyter notebook session
 
 ```
-jupyter
+jupyter notebook
 ```
 
 #### Step 2 - Download the practical data in to the right directory
 
-- The data is in this dropbox:[link going somewhere]. These are quite a large files...
+- The data is in this dropbox:
+https://www.dropbox.com/scl/fo/yh4lt269sggk8thy6pdqp/h?dl=0&rlkey=a0znm3d01v0m5t8z6b4o2le4x
 
-- Download this file as you normally would, and put it in the directory (folder) named
-'ECCO_data' 
+- If you're downloading them one-by-one, put them in a directory (folder) named 'ECCO_data', make one if it doesn't exist
 
 #### Step 3 - Chill 
 :palm_tree::palm_tree::cake::beer::palm_tree::palm_tree:
