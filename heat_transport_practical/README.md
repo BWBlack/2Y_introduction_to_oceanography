@@ -38,4 +38,5 @@ jupyter
 - Download this file as you normally would, and put it in the directory (folder) named
 'ECCO_data' 
 
-#### Step 3 - Chill :palm_tree::palm_tree::cake::beer::palm_tree::palm_tree:
+#### Step 3 - Chill 
+:palm_tree::palm_tree::cake::beer::palm_tree::palm_tree:
