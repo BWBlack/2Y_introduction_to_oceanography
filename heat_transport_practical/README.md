@@ -19,9 +19,22 @@ be required to do too much code editing - I would prefer that you focus on the s
 conda env create -f heat_transport_prac_env.yml
 ```
 
+- You will see a lot of text fly up the terminal, but that means things are working. When it's finished, run
+
+```
+conda activate heat_transport_prac_env
+```
+
+- Followed by this command, to open a Jupyter notebook session
+
+```
+jupyter
+```
+
 #### Step 2 - Download the practical data in to the right directory
 
-- The data is in this dropbox:[link going somewhere]. Its quite a large file...
+- The data is in this dropbox:[link going somewhere]. These are quite a large files...
+
 - Download this file as you normally would, and put it in the directory (folder) named
 'ECCO_data' 
 
